@@ -1,0 +1,38 @@
+    Строки
+Итерация по строке
+1. str.chars().forEach(ch -> System.out.print((char)ch + " "));
+2. for (int i = 0; i < str.length(); i++) {
+       System.out.print(str.charAt(i) + " ");
+   }
+3. for (char c : str.toCharArray()) {
+       System.out.print(c + " ");
+   }
+
+    Массивы
+1. for(int el:b){
+        System.out.print(el + " ");
+   }
+2. Scanner scan = new Scanner(System.in);
+   int[] mas = new int[scan.nextInt()]; //Ввод количества элементов и создание массива
+   for(int i = 0; i < mas.length; i++){
+       mas[i] = scan.nextInt(); //ввод очередного элемента массива
+   }
+3. for(int i = 0; i < b.length; i++){
+       System.out.print(b[i] + " ");
+   }
+
+7
+Иван
+Токарь
+Семен
+Программист
+Анатолий
+Кузнец
+Вася
+Финансист
+Кирилл
+Программист
+Оля
+Программист
+Валера
+Токарь
